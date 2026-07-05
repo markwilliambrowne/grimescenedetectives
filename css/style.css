@@ -410,3 +410,37 @@ footer {
     margin-top:30px;
 
 }
+
+.quote-form {
+    max-width: 650px;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.quote-form button {
+    background: #0E86FF;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.quote-form button:hover {
+    background: white;
+    color: #0E86FF;
+}
