@@ -6,18 +6,24 @@ body {
     line-height: 1.6;
 }
 .logo {
-    width: 180px;
-    max-width: 90%;
-    display: block;
-    margin: 0 auto 30px;
+    max-width: 180px;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 0 25px rgba(14,134,255,0.45));
 }
 
 /* HERO */
 .hero {
-    background: linear-gradient(135deg, #0a0a0a, #111);
-    color: white;
+    min-height: 85vh;
+    padding: 110px 20px 90px;
     text-align: center;
-    padding: 80px 20px 100px;
+    color: white;
+    background:
+        radial-gradient(circle at center top, rgba(14,134,255,0.25), transparent 35%),
+        linear-gradient(180deg, #06182f 0%, #071B3A 45%, #020b18 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
